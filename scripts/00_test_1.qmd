@@ -1,0 +1,26 @@
+---
+title: "pruebas"
+format: html
+editor: visual
+---
+
+## 
+
+```{r}
+library(memer)
+library(tidyverse)
+```
+
+```{r}
+meme_list()
+```
+
+## Usage
+
+```{r}
+meme_get("BatmanRobin") 
+  meme_text_bottom("Martiiiiin")
+  meme_text_buttons(lbtn = "       TOT En...   ", rbtn = "Free \n Monkey!!",size = 12,font = "Comic Sans") %>% 
+  meme_text_bottom("Mientras tanto el YISUS",size = 30)
+  # meme_text_trump(rightpg = "Welcome To TOTAL",leftpg = "EDMUNDO",font = "Georgia",size = 10)
+```
